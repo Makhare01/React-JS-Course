@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('TiltNeon-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'MyFont', sans-serif;
+    box-sizing: border-box;
+}
+
+.header, .headersmall{
+    background-color: #fa9e55;
+    height: 35px;
+    padding-top: 10px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.box{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.boxsmall{
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.navbar, .navbarsmall{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 35px 0;
+    background-color: #fef5e6;
+    box-shadow: 15px 15px 15px -15px rgba(0,0,0,0.75);
+}
+
+.navbarsmall,.headersmall{
+    width: 100%;
+    margin: 0;
+}
+
+.navbarsmall{
+    padding-left:20px;
+}
+
+.btn{
+    margin-right: 80px;
+    color: #000;
+    background-color: #fef5e6;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+}
+
+.logo .activealways{
+    color: #000;
+}
+
+
+.items .shoppingcart a{
+    padding: 0;
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.navbar ul li a:hover{
+    color: rgba(189, 10, 174, 0.716);
+}
+
+.logo{
+    text-align: center;
+    font-size: 30px;
+    transform: translateX(-40%);
+}
+
+.logo .active, .hidden, .activealways{
+    text-decoration: none;
+    color: black;
+}
+
+.items{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {    
+    .navbar ul{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar ul li{
+        margin-right: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar ul li a{
+        font-size: 22px;
+    }
+    
+    .logo .active{
+        display: none;
+    }
+
+    .logo .hidden{
+        display:unset;
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {    
+    .navbar ul{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar ul li{
+        margin-right: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    
+    .logo .active{
+        display: none;
+    }
+
+    .logo .hidden{
+        display:unset;
+        font-size: 20px;
+    }
+
+    .items li{
+        margin-right: 10px;
+    }
+}
+

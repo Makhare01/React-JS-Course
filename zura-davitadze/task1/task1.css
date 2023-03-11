@@ -1,0 +1,234 @@
+body {
+    font-family: "Trirong", serif;
+  }
+.title{
+    text-align: center;
+    background-color: #FA9E55;
+    height: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEF5E6;
+    color: #232326;
+    padding: 20px;
+    box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.3);
+  }
+  .navbar-menu-2{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+  }
+  .navbar-menu-2 li {
+    padding: 0px 50px 0px 0px;
+  }
+  .navbar-menu-2 li span {
+    cursor: pointer;
+  }
+  .navbar-logo a {
+    color: #232326;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu li a {
+    color: #232326;
+    text-decoration: none;
+  }
+  
+  .burger{
+    display: none;
+    cursor: pointer;
+  }
+
+  .burger .line{
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+
+  .navbar-logo-res{
+    display: none;
+    
+  }
+  .navbar-logo-res a{
+    color: #232326;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  .navbar-menu-res{
+    display: none;
+    color: #232326;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .forcard{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 400px;
+    border: 1px solid black;
+  }
+  
+  .card-img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .btn {
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .card-2 {
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: #E2306C;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 400px;
+  }
+  
+  .card-img-2 {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .card-body-2 {
+    padding: 10px;
+  }
+  
+  .card-title-2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #fff;
+    
+  }
+  
+  .card-text-2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .btn-2 {
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #E2306C;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  @media (max-width: 768px) {
+    .forcard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-logo-res{
+        display: block;
+        cursor: pointer;
+        margin: auto;
+      }
+      .navbar-menu-res{
+        display: block;
+        cursor: pointer;
+
+      }
+      .navbar-logo a{
+        display: none;
+      }
+    .navbar-menu {
+      display: none;
+    }
+    .navbar-menu-2{
+      display: none;
+
+    }
+  
+    .burger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .burger .line {
+      width: 25px;
+      height: 3px;
+      background-color: black;
+      margin: 5px;
+    }
+  }

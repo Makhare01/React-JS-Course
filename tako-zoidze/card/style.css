@@ -1,0 +1,68 @@
+
+/* font-family: 'Tilt Neon', cursive; */
+
+.cards {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cards div {
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 30px;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 20px 10px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+
+img {
+    width: 40px;
+    height: auto;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Tilt Neon', cursive;
+}
+
+p {
+    width: 200px;
+    margin: 10px;
+    line-height: 24px;
+    font-family: 'Tilt Neon', cursive;
+}
+ 
+button {
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border-style: none;
+    padding: 10px 60px;
+    margin-top: 15px;
+
+}
+
+.instagram.card {
+    background-color: #ff3399;
+    border-style: none;
+}
+
+.instagram h2 {
+    color: white;
+}
+
+.instagram p {
+    color: white;
+}
+
+.instagram button {
+    background-color: white;
+    color: #ff3399;
+}

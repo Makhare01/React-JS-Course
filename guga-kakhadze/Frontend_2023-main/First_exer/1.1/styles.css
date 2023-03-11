@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('TiltNeon-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'MyFont', sans-serif;
+}
+
+.container{
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: (100% / 3);
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin:20px auto;
+}
+
+.box .icon{
+    font-size: 55px;
+    margin-top: 25px;;
+}
+
+.box h1{
+    text-transform:uppercase;
+    font-weight: 1000;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.box p{
+    margin: 5px auto;
+    font-size: 15px;
+    font-weight:400;
+    max-width: 90%;
+    line-height:1.5em;
+}
+
+.box .btn{
+    width: 90%;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-transform: uppercase;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.instagram{
+    background-color: #e2306c;
+    color: #fff;
+}
+
+.instagram .btn{
+    background-color: #fff;
+    color: #ce97ab;
+    font-weight: 700;
+}
+
+.box:hover{
+    background-color: #e2306c;
+    color: #fff;
+    transition: 1s;
+}
+
+.box .btn:hover{
+    background-color: #fff;
+    color: #ce97ab;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.instagram:hover{
+    background-color: #fff;
+    color:black;
+}
+
+.instagram .btn:hover{
+    background-color: black;
+    color: #fff;
+}

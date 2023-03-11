@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            width: 300px;
+            flex-direction: column;
+            border: 2px solid #000;
+            background: #f2f2f2;
+        }
+
+        .card:hover {
+            background: #e8186f;
+        }
+
+        .card:hover .button {
+            background-color: white;
+            color: #e62b79;
+        }
+
+        .card:hover p,
+        .card:hover h1 {
+            color: white;
+        }
+
+        .button {
+            height: 45px;
+            width: 230px;
+            border-radius: 25px;
+            border: 2px solid #000;
+            cursor: pointer;
+            background-color: black;
+            text-transform: uppercase;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 2px;
+            margin-bottom: 3em;
+        }
+
+        img {
+            width: 60px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        /* =========================navbar================== */
+        .header_title_div {
+            text-align: center;
+            background-color: rgb(255, 140, 0);
+        }
+
+        .header_nav_div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: bisque;
+        }
+        .header_nav_indiv{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 200px;
+        }
+
+        header {
+            height: 70px;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header_title_div">welcome to my brand new shop</div>
+        <div class="header_nav_div">
+            <div class="header_nav_indiv"><a href="#">home</a><a href="#"></a>Product<a href="#">Shop</a></div>
+            <h2>HTML <img src="https://cdn.icon-icons.com/icons2/2797/PNG/512/ampersand_icon_178351.png" alt="image"
+                    style="width: 18px;"> JS</h2>
+            <div class="header_nav_indiv"> <i class="material-icons">search</i>
+                <i class="material-icons">shopping_bag</i>
+                <i class="material-icons">shopping_cart</i>
+            </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://cdn.icon-icons.com/icons2/791/PNG/512/TWITTER_icon-icons.com_65486.png" alt="image">
+            <h1>twitter</h1>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium pariatur, quam porro numquam error
+                amet maxime assumenda perspiciatis inventore ipsam consectetur cum saepe.</P>
+
+            <button class="button">READ MORE</button>
+
+        </div>
+        <div class="card">
+            <img src="https://cdn.icon-icons.com/icons2/791/PNG/512/instagram_f_icon-icons.com_65485.png" alt="image">
+            <h1>instagram</h1>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium pariatur, quam porro numquam error
+                amet maxime assumenda perspiciatis inventore ipsam consectetur cum saepe.</P>
+            <button class="button">READ MORE</button>
+
+        </div>
+        <div class="card">
+            <img src="https://cdn.icon-icons.com/icons2/791/PNG/512/YOUTUBE_icon-icons.com_65487.png" alt="image">
+            <h1>youtube</h1>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium pariatur, quam porro numquam error
+                amet maxime assumenda perspiciatis inventore ipsam consectetur cum saepe.</P>
+            <button class="button">READ MORE</button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

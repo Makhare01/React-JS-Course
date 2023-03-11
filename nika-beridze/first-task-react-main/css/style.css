@@ -1,0 +1,103 @@
+@font-face {
+    font-family: golos-text;
+    src: url(/fonts/GolosText-Regular.ttf);
+}
+
+.social-image {
+    width: 60px;
+}
+
+.main-text {
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    border: 2px solid #000;
+    background: #faf8f8;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button {
+    height: 45px;
+    width: 230px;
+    border-radius: 25px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.social-name {
+    font-family: golos-text;
+}
+
+.card:hover {
+    background: #e8186f;
+}
+
+.card:hover .button {
+    background-color: white;
+    color: #e62b79;
+}
+
+.card:hover .main-text, .card:hover .social-name {
+    color: white;
+}
+
+
+
+.header-title {
+    text-align: center;
+    font-family: golos-text;
+    background-color: rgb(246, 143, 16);
+    height: 20px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+}
+
+.nav-div-inside {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    font-family: golos-text;
+}
+
+.image-nav-div {
+    width: 30px; height: 30px;
+}
+
+header {
+    box-shadow: 10px 20px 5px 1px rgba(0, 0, 0, 0.2);
+    height: 70px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.5s ease-in-out;
+}

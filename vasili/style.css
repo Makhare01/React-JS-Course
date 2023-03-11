@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+.cards{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.services{
+  display: flex;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all .3s ease;
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+.content:hover{
+  color: white;
+}
+.content:hover a{
+  border-color: white;
+  background: white;
+}
+.content-2:hover{
+  border-color: #f30a58;
+  background: #E1306C;
+}
+.content-2:hover a{
+  color: #bc3864;
+}
+.content p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+.content a{
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: .3s ease;
+}
+.content a:hover{
+  border-radius: 4px;
+}
+@media (max-width: 900px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+	color: #4f0a2f;
+}
+a {
+	text-decoration: none;
+}
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+.main-nav a:hover {
+	color: #718daa;
+}
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #e28c0a;
+	background-color: #e2760b;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+}
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+    }
+}
