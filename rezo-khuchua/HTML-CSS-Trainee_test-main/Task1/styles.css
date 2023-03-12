@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    max-width: 250px;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.column .icon {
+    font-size: 55px;
+    margin-top: 25px;
+}
+
+.column h1 {
+    text-transform: uppercase;
+    font-weight: 1000;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.column p {
+    margin: 5px auto;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 90%;
+    line-height: 1.5em;
+}
+
+.column .btn {
+    width: 90%;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-transform: uppercase;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.instagram {
+    background-color: #e2306c;
+    color: #fff;
+}
+
+.instagram .btn {
+    background-color: #fff;
+    color: #ce97ab;
+    font-weight: 700;
+}
+
+.column:hover {
+    background-color: #d2205b;
+    color: #fff;
+    transition: 1s;
+}
+
+.column .btn:hover {
+    color: #d3a7b7;
+    transition: 0.5s;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.instagram:hover {
+    color: rgb(6, 5, 5);
+    background-color: #fff;
+}
+
+.instagram .btn:hover {
+    color: #fff;
+    background-color: rgb(16, 13, 13);
+}
