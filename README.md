@@ -49,7 +49,7 @@
 - Classes and Generics in Typescript
 - Project - Creating a Basic Typescript Application
 
-**React JS, Specification of React js, Understanding of how react works**
+# React JS, Specification of React js, Understanding of how react works
 
 #### Week 1-3: Combining Typescript with ReactJS
 - Introduction to ReactJS
