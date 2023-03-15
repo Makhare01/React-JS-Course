@@ -35,7 +35,9 @@
 - Using Third-Party Libraries in Javascript
 - Tips for Writing Clean and Maintainable Code
 - Variable, function namings
-- 3-4 New libraries to getting familiar with using documentation
+
+
+**Exam where we will find out your knowledge and results, Any student who can pass the test will advance to the next stages**
 
 ## Typescript
 
