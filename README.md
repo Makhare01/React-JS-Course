@@ -43,20 +43,16 @@
 
 **This 2-week Typescript course will include a mix of lectures, hands-on coding exercises, and projects. By the end of the course, students will have a solid understanding of using Typescript with ReactJS and will be able to build scalable and maintainable web applications.**
 
-#### Week 1: Introduction to Typescript
+#### Week 1-2: Introduction to Typescript
 - What is Typescript and its Benefits
 - Setting up a Typescript Project
 - Basic Types and Interfaces in Typescript
 - Classes and Generics in Typescript
 - Project - Creating a Basic Typescript Application
 
-#### Week 2: 
-- Get familiar with complex types
-- Working with libraries using typescript
-
 **React JS, Specification of React js, Understanding of how react works**
 
-#### Week 1: Combining Typescript with ReactJS
+#### Week 1-3: Combining Typescript with ReactJS
 - Introduction to ReactJS
 - Integrating Typescript with ReactJS
 - Introduction to Hooks (Custom included)
@@ -64,9 +60,9 @@
 - Higher Order Components in ReactJS with Typescript
 - Project - Building a Simple Web Application with Typescript and ReactJS
 
-**Second week course will be for state managment, to be more specific react-query, React Query is a ReactJS preconfigured data management library which gives you power and control over server-side state management, fetching, and caching of data, and error handling in a simple and declarative way without affecting the global state of your application.**
+**This topic will be for state managment, to be more specific react-query, React Query is a ReactJS preconfigured data management library which gives you power and control over server-side state management, fetching, and caching of data, and error handling in a simple and declarative way without affecting the global state of your application.**
 
-#### Week 2:
+#### Week 1-3:
 - Using react-query library
 - Learn how to manage react query (devtool)
 - Caching, error handling
@@ -81,7 +77,7 @@
 
 **It's about working with Forms dynamically, library called react-hook-form will help us to build dynamic and complex forms with easy way**
 
-#### Week 1:
+#### Week 1-2:
 - Working with react-hook-form
 - Working with array fields
 - Working with stepper form
