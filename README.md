@@ -30,14 +30,13 @@
 - Destructuring and Object Methods
 
 #### Week 5: Best Practices and Tips for Javascript
-- Debugging Javascript
 - Code Organization in a Large-Scale Javascript Application
 - Using Third-Party Libraries in Javascript
 - Tips for Writing Clean and Maintainable Code
 - Variable, function namings
 
 
-**Exam where we will find out your knowledge and results, Any student who can pass the test will advance to the next stages**
+**Exam where we will find out your knowledge and results, first 8-10 students who will have best results in exam will promote to next steps**
 
 ## Typescript
 
